@@ -1,12 +1,13 @@
 import React, { useContext } from "react";
 import { LaptopContext } from "./context/Context";
-
+import img1 from "../assets/img3.jpg";
+import { Link } from "react-router-dom";
 export default function Navbar() {
   const { isNavbar, setNavbar } = useContext(LaptopContext);
   return (
-    <nav className="flex relative items-center bg-slate-800 px-4 sm:px-5 md:px-6 py-4 justify-between ">
+    <nav className="flex w-full z-20 items-center fixed top-0 left-0 bg-zinc-950 px-4 sm:px-5 md:px-6 py-4 justify-between ">
       <h1 className="text-slate-500 text-xl md:text-2xl font-bold font-Montserrat">
-        Navbar
+        <img src={img1} className="w-20" alt="" srcSet="" />
       </h1>
 
       <div className="md:hidden">
@@ -27,10 +28,18 @@ export default function Navbar() {
         </svg>
         {isNavbar ? (
           <ul className="absolute top-0 left-0 bg-slate-800 z-10 rounded  h-[40vh] flex  flex-col justify-center px-10 text-gray-100">
-            <li className="p-2 font-Montserrat">Home</li>
-            <li className="p-2 font-Montserrat">About</li>
-            <li className="p-2 font-Montserrat">Services</li>
-            <li className="p-2 font-Montserrat">Laptops</li>
+            <Link to={"/"} className="p-2 font-Montserrat">
+              Home
+            </Link>
+            <Link to={"/about"} className="p-2 font-Montserrat">
+              About
+            </Link>
+            <Link to={"/services"} className="p-2 font-Montserrat">
+              Services
+            </Link>
+            <Link to={"/laptop"} className="p-2 font-Montserrat">
+              Laptops
+            </Link>
           </ul>
         ) : (
           <></>
@@ -38,10 +47,18 @@ export default function Navbar() {
       </div>
 
       <ul className="hidden md:flex gap-5 font-Poppins cursor-pointer text-gray-100">
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Laptops</li>
+        <Link to={"/"} className="p-2 font-Montserrat">
+          Home
+        </Link>
+        <Link to={"/about"} className="p-2 font-Montserrat">
+          About
+        </Link>
+        <Link to={"/services"} className="p-2 font-Montserrat">
+          Services
+        </Link>
+        <Link to={"/laptop"} className="p-2 font-Montserrat">
+          Laptops
+        </Link>
       </ul>
     </nav>
   );

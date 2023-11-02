@@ -4,6 +4,7 @@ export default function LaptopProvider({ children }) {
   const [modal, setModal] = useState(false);
   const [productDetail, setProductDetail] = useState([]);
   const [isNavbar, setNavbar] = useState(false);
+  const [isLaptop, setLaptop] = useState(true);
   const value = {
     modal,
     setModal,
@@ -11,6 +12,8 @@ export default function LaptopProvider({ children }) {
     setProductDetail,
     isNavbar,
     setNavbar,
+    isLaptop,
+    setLaptop,
   };
   return (
     <LaptopContext.Provider value={value}>{children}</LaptopContext.Provider>
