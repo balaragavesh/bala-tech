@@ -5,6 +5,7 @@ import Navbar from "./component/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Services from "./component/Services";
 import Laptop from "./component/Laptop";
+import Footer from "./component/Footer";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/services" element={<Services />} />
           <Route exact path="/laptop" element={<Laptop />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

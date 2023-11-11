@@ -27,7 +27,7 @@ export default function Navbar() {
           />
         </svg>
         {isNavbar ? (
-          <ul className="absolute top-0 left-0 bg-slate-800 z-10 rounded  h-[40vh] flex  flex-col justify-center px-10 text-gray-100">
+          <ul className="absolute top-0 left-0 bg-zinc-800 z-10 rounded  h-[100vh] flex  flex-col justify-center px-10 text-gray-100">
             <Link to={"/"} className="p-2 font-Montserrat">
               Home
             </Link>
@@ -40,6 +40,12 @@ export default function Navbar() {
             <Link to={"/laptop"} className="p-2 font-Montserrat">
               Laptops
             </Link>
+            <button
+              className="px-4 font-Poppins py-2 my-2 bg-zinc-900 rounded"
+              onClick={() => setNavbar((state) => !state)}
+            >
+              Close
+            </button>
           </ul>
         ) : (
           <></>

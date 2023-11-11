@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import img from "../../assets/img1.jpg";
 import LaptopList from "./LaptopList";
 import Category from "../Category";
 export default function Hero() {
   const img1 = "url('/src/assets/img1.jpg')";
-  console.log(img);
+  const [width, setWidth] = useState(window.innerWidth);
+  window.addEventListener("resize", () => {
+    setWidth(window.innerWidth);
+  });
   return (
     <>
       <div
@@ -15,7 +18,8 @@ export default function Hero() {
           Explore Refurbished Laptops
         </h1>
       </div>
-      <div className="flex">
+      <div className="md:flex">
+        {/* {width > 768 ? <Category /> : <></>} */}
         <Category />
         <LaptopList />
       </div>
