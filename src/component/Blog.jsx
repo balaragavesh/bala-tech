@@ -16,8 +16,8 @@ export default function Blog() {
   return (
     <div className="min-h-screen w-full flex justify-center items-center flex-col font-Poppins">
       <h1></h1>
-      <Section src={src1} content={content1} order={"order-1"} title={title1} />
-      <Section src={src2} content={content2} order={"order-2"} title={title2} />
+      <Section src={src1} content={content1} order={""} title={title1} />
+      <Section src={src2} content={content2} order={"md:order-2"} title={title2} />
     </div>
   );
 }
