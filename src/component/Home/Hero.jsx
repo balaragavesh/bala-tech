@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import img from "../../assets/img1.jpg";
 import LaptopList from "./LaptopList";
 import Category from "../Category";
+import Blog from "../Blog";
 export default function Hero() {
   const img1 = "url('/src/assets/img1.jpg')";
   const [width, setWidth] = useState(window.innerWidth);
@@ -23,6 +24,8 @@ export default function Hero() {
         <Category />
         <LaptopList />
       </div>
+      <Blog />
+
     </>
   );
 }
