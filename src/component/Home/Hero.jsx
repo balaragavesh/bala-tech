@@ -16,7 +16,7 @@ export default function Hero() {
         style={{ backgroundImage: img1 }}
       >
         <h1 className="text-center text-white font-Montserrat font-bold text-3xl md:text-5xl lg:text-8xl ">
-          Explore Refurbished Laptops
+          
         </h1>
       </div>
       <div className="md:flex">
