@@ -29,7 +29,7 @@ export default function Modal() {
               {productDetail.storage}
             </span>
           </p>
-          <p className="font-Montserrat text-gray-950 font-medium">
+          {/*<p className="font-Montserrat text-gray-950 font-medium">
             Screen :{" "}
             <span className="font-normal text-teal-950">
               {productDetail.screen}
@@ -46,7 +46,7 @@ export default function Modal() {
             <span className="font-normal text-teal-950">
               {productDetail.description}
             </span>
-          </p>
+          </p>*/}
           <button
             className="bg-teal-950 flex text-gray-100 mt-5 px-4 py-2 rounded-sm font-Montserrat"
             onClick={() => setModal(false)}

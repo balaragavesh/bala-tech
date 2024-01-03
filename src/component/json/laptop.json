@@ -1,120 +1,36 @@
 [
   {
     "id": 1,
-    "productName": "Apple MacBook Pro",
+    "productName": "HP 640 g2",
     "image": "/src/assets/img1.jpg",
-    "cpu": "Apple M1 Pro",
-    "ram": "16GB",
-    "storage": "512GB SSD",
+    "cpu": "Intel core i5 processor",
+    "ram": "8GB",
+    "storage": "256GB SSD",
     "screen": "14-inch, Liquid Retina XDR display",
     "price": 1999,
     "description": "The Apple MacBook Pro is a powerful and versatile laptop that is perfect for creative professionals, students, and business users. It features a stunning Liquid Retina XDR display, a blazing-fast M1 Pro or M1 Max chip, and a long-lasting battery."
   },
   {
     "id": 2,
-    "productName": "Dell XPS 13",
+    "productName": "Dell Latitude 3350",
     "image": "/src/assets/img1.jpg",
-    "cpu": "Intel Core i7-1260P",
-    "ram": "16GB",
-    "storage": "512GB SSD",
+    "cpu": "Intel core i5 5th gen",
+    "ram": "4GB",
+    "storage": "500GB Harddisk",
     "screen": "13.4-inch, InfinityEdge display",
     "price": 1299,
     "description": "The Dell XPS 13 is a sleek and portable laptop that is perfect for students and business users. It features a stunning InfinityEdge display, a powerful Intel Core i7 processor, and a long-lasting battery."
   },
   {
     "id": 3,
-    "productName": "Microsoft Surface Laptop Studio",
+    "productName": "Dell Lattitude 7390",
     "image": "/src/assets/img1.jpg",
-
-    "cpu": "Intel Core i7-1185G7",
-    "ram": "16GB",
-    "storage": "1TB SSD",
-    "screen": "14.4-inch, PixelSense Flow display",
-    "price": 1599,
-    "description": "The Microsoft Surface Laptop Studio is a versatile laptop that can be used as a traditional laptop, a tablet, or a creative canvas. It features a unique hinge that allows the screen to be rotated into different positions, a powerful Intel Core i7 processor, and a long-lasting battery."
-  },
-  {
-    "id": 4,
-    "productName": "Lenovo ThinkPad X1 Carbon",
-    "image": "/src/assets/img1.jpg",
-
-    "cpu": "Intel Core i7-1165G7",
-    "ram": "16GB",
-    "storage": "512GB SSD",
-    "screen": "14-inch, 4K Dolby Vision display",
-    "price": 1699,
-    "description": "The Lenovo ThinkPad X1 Carbon is a business-oriented laptop known for its durability, excellent keyboard, and high-resolution display."
-  },
-  {
-    "id": 5,
-    "productName": "HP Spectre x360 15",
-    "image": "/src/assets/img1.jpg",
-
-    "cpu": "Intel Core i7-1165G7",
-    "ram": "16GB",
-    "storage": "1TB SSD",
-    "screen": "15.6-inch, 4K AMOLED touch screen",
-    "price": 1499,
-    "description": "The HP Spectre x360 15 is a 2-in-1 convertible laptop with a powerful processor, stunning 4K AMOLED display, and versatile design for creative tasks and entertainment."
-  },
-  {
-    "id": 6,
-    "productName": "Asus ROG Zephyrus G14",
-    "image": "/src/assets/img1.jpg",
-
-    "cpu": "AMD Ryzen 9 5900HS",
-    "ram": "32GB",
-    "storage": "1TB NVMe SSD",
-    "screen": "14-inch, QHD 1440p display",
-    "price": 1499,
-    "description": "The Asus ROG Zephyrus G14 is a high-performance gaming laptop with a powerful AMD Ryzen processor, dedicated NVIDIA GPU, and a high-refresh-rate QHD display."
-  },
-  {
-    "id": 7,
-    "productName": "Acer Chromebook Spin 13",
-    "image": "/src/assets/img1.jpg",
-
-    "cpu": "Intel Core i5-8250U",
+    "cpu": "Intel i5 8th gen",
     "ram": "8GB",
-    "storage": "128GB eMMC",
-    "screen": "13.5-inch, 2K touchscreen",
-    "price": 599,
-    "description": "The Acer Chromebook Spin 13 is a versatile and affordable Chromebook with a high-resolution touchscreen, making it great for productivity and online tasks."
-  },
-  {
-    "id": 8,
-    "productName": "HP Envy x360 13",
-    "image": "/src/assets/img1.jpg",
-
-    "cpu": "AMD Ryzen 7 5800U",
-    "ram": "16GB",
-    "storage": "512GB SSD",
-    "screen": "13.3-inch, Full HD touch screen",
-    "price": 899,
-    "description": "The HP Envy x360 13 is a compact 2-in-1 laptop with a powerful AMD processor, a responsive touch screen, and a sleek design, making it suitable for both work and play."
-  },
-  {
-    "id": 9,
-    "productName": "Samsung Galaxy Book Pro",
-    "image": "/src/assets/img1.jpg",
-
-    "cpu": "Intel Core i7-1165G7",
-    "ram": "16GB",
-    "storage": "1TB NVMe SSD",
-    "screen": "15.6-inch, Super AMOLED display",
-    "price": 1499,
-    "description": "The Samsung Galaxy Book Pro is a lightweight and stylish laptop with a Super AMOLED display, a powerful Intel Core i7 processor, and long battery life, ideal for on-the-go professionals."
-  },
-  {
-    "id": 10,
-    "productName": "Acer Predator Helios 300",
-    "image": "/src/assets/img1.jpg",
-
-    "cpu": "Intel Core i7-10750H",
-    "ram": "16GB",
-    "storage": "512GB NVMe SSD",
-    "screen": "15.6-inch, Full HD 144Hz display",
-    "price": 1199,
-    "description": "The Acer Predator Helios 300 is a gaming laptop with a high-refresh-rate display, powerful hardware, and a budget-friendly price, designed for gamers who want excellent performance without breaking the bank."
+    "storage": "256GB SSD",
+    "screen": "13.4-inch, InfinityEdge display",
+    "price": 1299,
+    "description": "The Dell XPS 13 is a sleek and portable laptop that is perfect for students and business users. It features a stunning InfinityEdge display, a powerful Intel Core i7 processor, and a long-lasting battery."
   }
+ 
 ]

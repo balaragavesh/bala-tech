@@ -10,24 +10,30 @@ export default function LaptopItem({ item, index, handleModal }) {
       <img src={item.image} className="" alt="" />
       <div className="flex flex-col px-10 py-5">
         <div className="font-medium">
-          Name
-          <span className="ml-2 text-teal-950 font-normal">
+          <span className="text-teal-950 font-bold text-2xl">
             {item.productName}
           </span>
         </div>
         <div className="font-medium">
-          Price
-          <span className="ml-2 text-teal-950 font-normal">$ {item.price}</span>
+          CPU
+          <span className="ml-2 text-teal-950 font-normal"> {item.cpu}</span>
         </div>
-
         <div className="font-medium">
+          RAM
+          <span className="ml-2 text-teal-950 font-normal"> {item.ram}</span>
+        </div>
+        <div className="font-medium">
+          Storage
+          <span className="ml-2 text-teal-950 font-normal"> {item.storage}</span>
+        </div>
+        {/* <div className="font-medium">
           Description
           <span className="ml-2 text-teal-950 font-normal">
             {item.description.split(" ").length > 15
               ? item.description.slice(0, 50) + "..."
               : item.description}
           </span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

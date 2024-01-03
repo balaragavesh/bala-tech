@@ -10,7 +10,7 @@ export default function Category() {
 
   return (
     <div className="px-5 flex flex-shrink-0 flex-col">
-      <h1 className="font-Poppins font-bold text-3xl py-5">Category</h1>
+      <h1 className="font-Montserrat font-bold text-3xl py-5">Laptop</h1>
       <div className="font-Montserrat flex flex-col">
         <label>
           <input
@@ -20,9 +20,9 @@ export default function Category() {
             className="mr-2"
             onChange={handleRadio}
           />
-          Laptop
+          ALL
         </label>
-        <label>
+        {/* <label>
           <input
             type="radio"
             id="radio2"
@@ -30,8 +30,8 @@ export default function Category() {
             className="mr-2"
             onChange={handleRadio}
           />
-          Desktop Accessories
-        </label>
+          DELL
+        </label> */}
       </div>
     </div>
   );
