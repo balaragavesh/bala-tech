@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "productName": "HP 640 g2",
-    "image": "/src/assets/img1.jpg",
+    "productName": "HP Probook 640 g2",
+    "image": "/src/assets/HP 640 g2.jpg",
     "cpu": "Intel core i5 processor",
     "ram": "8GB",
     "storage": "256GB SSD",

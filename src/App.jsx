@@ -7,16 +7,25 @@ import Services from "./component/Services";
 import Laptop from "./component/Laptop";
 import Footer from "./component/Footer";
 function App() {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        <Navbar scrollToSection={scrollToSection}/>
         <Routes>
           <Route exact path="/" element={<Hero />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/services" element={<Services />} />
           <Route exact path="/laptop" element={<Laptop />} />
         </Routes>
+        <About />
+        <Services/>
+        <Laptop />
         <Footer />
       </Router>
     </div>

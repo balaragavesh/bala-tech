@@ -84,7 +84,7 @@ export default function Services() {
           </li>
         </ul>
 
-        <a href="#" className="font-Poppins bg-zinc-900 px-4 py-2 rounded">
+        <a href="#" className="font-Poppins bg-blue-500 px-4 py-2 rounded text-white">
           Contact Us
         </a>
       </div>

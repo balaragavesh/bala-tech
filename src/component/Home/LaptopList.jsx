@@ -13,7 +13,7 @@ export default function LaptopList() {
     setModal(true);
   };
   return (
-    <div className="bg-gray-100 relative grid grid-cols-1 md:grid-cols-3  lg:grid-cols-5  p-10 gap-5">
+    <div className="bg-gray-300 relative grid grid-cols-1 md:grid-cols-3  lg:grid-cols-4  p-10 gap-7">
       {isLaptop ? (
         <>
           <h1 className="flex items-center justify-center col-span-1 md:col-span-3 lg:col-span-5 font-Poppins my-10 font-bold text-center text-5xl text-slate-700">
