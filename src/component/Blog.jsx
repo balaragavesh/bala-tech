@@ -14,7 +14,7 @@ export default function Blog() {
     "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 
   return (
-    <div className="min-h-screen w-full flex justify-center items-center flex-col font-Poppins">
+    <div className="min-h-screen w-full flex justify-center items-center flex-col font-Poppins px-20">
       <h1></h1>
       <Section src={src1} content={content1} order={""} title={title1} />
       <Section src={src2} content={content2} order={"md:order-2"} title={title2} />

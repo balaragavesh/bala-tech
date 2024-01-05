@@ -13,7 +13,7 @@
   {
     "id": 2,
     "productName": "Dell Latitude 3350",
-    "image": "/src/assets/img1.jpg",
+    "image": "/src/assets/DELL latitiude 3350.jpg",
     "cpu": "Intel core i5 5th gen",
     "ram": "4GB",
     "storage": "500GB Harddisk",
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "productName": "Dell Lattitude 7390",
-    "image": "/src/assets/img1.jpg",
+    "image": "/src/assets/DELL latitude 7390.jpg",
     "cpu": "Intel i5 8th gen",
     "ram": "8GB",
     "storage": "256GB SSD",

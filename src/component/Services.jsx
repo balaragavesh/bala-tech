@@ -36,15 +36,16 @@ export default function Services() {
   console.log(serviceData);
 
   return (
-    <div className="py-28 w-full min-h-screen bg-white text-black">
+    <div className="py-28 min-h-screen bg-white text-black justify-center items-center p-15">
       <h1 className="multicolor-text font-Montserrat text-5xl md:text-5xl font-bold text-center">
         Our Services
       </h1>
-      <div className="grid  grid-cols-1 md:grid-cols-3 gap-7 md:mx-20 my-10">
+      <div>
+        <div className="grid  grid-cols-1 md:grid-cols-3 gap-7 md:mx-20 my-20 ">
         {serviceData.map((item, index) => (
           <div key={index} className="font-Montserrat  bg-zinc-200 p-5 rounded text-black-100 font-bold">
             <img src={item.imgurl} alt="Image Description" className="w-full md:w-full h-1/2 justify-center" />
-            <h4 className="text-3xl">{item.title}</h4>
+            <h4 className="text-3xl py-3">{item.title}</h4>
             <p className="text-gray-40 font-medium">{item.description}</p>
 
             {/*
@@ -57,7 +58,7 @@ export default function Services() {
           </div>
         ))}
       </div>
-
+      </div>
       <div className="md:mx-20">
         <h2 className="font-Montserrat text-xl font-medium text-gray">
           Why Choose Our Service?

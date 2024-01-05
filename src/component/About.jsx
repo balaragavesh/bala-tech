@@ -2,8 +2,8 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="flex justify-center  flex-col px-10 md:px-28 bg-gray-300 min-h-screen py-28">
-      <h1 className=" multicolor-text font-Montserrat text-6xl md:text-6xl font-bold  text-left">
+    <div className="flex justify-center  flex-col px-10 md:px-20 bg-gray-300 py-20">
+      <h1 className=" multicolor-text font-Montserrat text-6xl md:text-6xl font-bold  text-left py-2">
         About Bala Technologies
       </h1>
       <div className="flex font-medium">
@@ -21,7 +21,7 @@ export default function About() {
             With a passion for technology and a customer-centric approach, we are dedicated to assisting you in finding the perfect laptop that aligns with your specific needs and preferences.
           </p>
         </div>
-        <div className="flex justify-end w-1/3 h-1/3">
+        <div className="flex justify-end w-1/3 h-1/3 ">
           <img src="src/assets/img3.jpg" alt="Image Description" className="w-full md:w-3/4 " />
         </div>
       </div>
