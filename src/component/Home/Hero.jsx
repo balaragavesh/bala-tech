@@ -24,7 +24,6 @@ export default function Hero() {
         <Category />
         <LaptopList />
       </div>
-      <Blog />
 
     </>
   );

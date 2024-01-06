@@ -45,7 +45,7 @@ export default function Services() {
         {serviceData.map((item, index) => (
           <div key={index} className="font-Montserrat  bg-zinc-200 p-5 rounded text-black-100 font-bold">
             <img src={item.imgurl} alt="Image Description" className="w-full md:w-full h-1/2 justify-center" />
-            <h4 className="text-3xl py-3">{item.title}</h4>
+            <h4 className="text-2xl py-3">{item.title}</h4>
             <p className="text-gray-40 font-medium">{item.description}</p>
 
             {/*
@@ -56,39 +56,13 @@ export default function Services() {
             </ul>
               */}
           </div>
+          
         ))}
       </div>
       </div>
-      <div className="md:mx-20">
-        <h2 className="font-Montserrat text-xl font-medium text-gray">
-          Why Choose Our Service?
-        </h2>
-
-        <ul className="font-Montserrat space-y-5 py-5">
-          <li>
-            <strong>Expertise:</strong> Our team consists of seasoned
-            professionals with a proven track record in [industry/niche].
-          </li>
-          <li>
-            <strong>Custom Solutions:</strong> We understand that every client
-            is unique, and we tailor our services to meet your specific
-            requirements.
-          </li>
-          <li>
-            <strong>Client Satisfaction:</strong> Our priority is your
-            satisfaction. We work closely with you to ensure our services exceed
-            your expectations.
-          </li>
-          <li>
-            <strong>Innovation:</strong> We stay ahead of industry trends to
-            bring you the latest and most effective solutions.
-          </li>
-        </ul>
-
-        <a href="#" className="font-Poppins bg-blue-500 px-4 py-2 rounded text-white">
+      <a href="#" className="font-Poppins bg-blue-500 px-4 py-2 rounded text-white justify-end">
           Contact Us
-        </a>
-      </div>
+      </a>
     </div>
   );
 }

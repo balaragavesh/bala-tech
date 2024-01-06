@@ -10,7 +10,7 @@ export default function LaptopItem({ item, index, handleModal }) {
       <img src={item.image} className="h-2/3" alt="" />
       <div className="flex flex-col px-10 py-5">
         <div className="font-medium">
-          <span className="text-teal-950 font-bold text-2xl">
+          <span className="text-teal-950 font-bold text-xl">
             {item.productName}
           </span>
         </div>

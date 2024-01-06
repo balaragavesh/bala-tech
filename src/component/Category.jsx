@@ -9,7 +9,7 @@ export default function Category() {
   };
 
   return (
-    <div className="px-5 flex flex-shrink-0 flex-col">
+    <div className="px-5 flex flex-shrink-0 flex-col bg-white border-black">
       <h1 className="font-Montserrat font-bold text-3xl py-5">Laptop</h1>
       <div className="font-Montserrat flex flex-col">
         <label>

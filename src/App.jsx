@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Services from "./component/Services";
 import Laptop from "./component/Laptop";
 import Footer from "./component/Footer";
+import Blog from "./component/Blog";
 function App() {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -25,6 +26,7 @@ function App() {
         </Routes>
         <About />
         <Services/>
+        <Blog />
         <Laptop />
         <Footer />
       </Router>

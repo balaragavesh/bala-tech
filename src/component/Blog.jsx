@@ -2,22 +2,30 @@ import React from "react";
 import Section from "./Section";
 
 export default function Blog() {
-  const title1 = "Title1";
-  const title2 = "Title2";
+  const title1 = "Expertise";
+  const title2 = "Customer satisfaction";
   const content1 =
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis aut, distinctio consectetur recusandae itaque ex pariatur laudantium eius quam sequi. Placeat, consectetur. Ipsum autem officia consequuntur architecto obcaecati id magnam!";
+    "Our journey in laptop sales and service spans a vast array of expertise and dedication. With years of immersion in the industry, we've cultivated an unparalleled understanding of laptops' intricacies, evolving trends, and customer needs.At the core of our service lies a dedication to personalized support, where every client receives tailored solutions and dependable assistance. Backed by years of industry experience, we guarantee top-notch products, transparent communication, and unwavering customer support";
   const content2 =
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis aut, distinctio consectetur recusandae itaque ex pariatur laudantium eius quam sequi. Placeat, consectetur. Ipsum autem officia consequuntur architecto obcaecati id magnam!";
+    "Our commitment to customer satisfaction goes beyond mere transactions; it's an ongoing journey of understanding, exceeding expectations, and building lasting relationships. We take pride in offering personalized attention, ensuring that each client receives tailored solutions and unwavering support.From guiding customers through informed purchase decisions to swiftly resolving technical issues, we thrive on ensuring a seamless and gratifying experience. Our relentless pursuit of customer happiness drives us to provide transparent communication, reliable service, and a dedication to surpassing expectations.";
   const src1 =
-    "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+    "src/assets/expert.jpg";
   const src2 =
-    "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+    "src/assets/customer-satis.jpg";
 
   return (
-    <div className="min-h-screen w-full flex justify-center items-center flex-col font-Poppins px-20">
-      <h1></h1>
-      <Section src={src1} content={content1} order={""} title={title1} />
-      <Section src={src2} content={content2} order={"md:order-2"} title={title2} />
+    <div>
+      <div className="min-h-screen w-full flex justify-center items-center flex-col font-Poppins px-20 bg-gray-300 text-lg text-justify">
+        <h1 className="font-Montserrat text-5xl py-10 multicolor-text font-bold">Why choose us</h1>
+        <div>
+          <Section src={src1} content={content1} order={""} title={title1} />
+          <Section src={src2} content={content2} order={"md:order-2"} title={title2} />
+        </div>
+      </div>
+      <div className="w-full bg-black">
+        <p>Something</p>
+
+      </div>
     </div>
   );
 }
