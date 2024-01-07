@@ -40,6 +40,9 @@ export default function Navbar() {
             <Link to={"/laptop"} className="p-2 font-Montserrat">
               Laptops
             </Link>
+            <Link to={"/footer"} className="p-2 font-Montserrat">
+              Contact
+            </Link>
             <button
               className="px-4 font-Poppins py-2 my-2 bg-zinc-900 rounded"
               onClick={() => setNavbar((state) => !state)}
@@ -64,6 +67,9 @@ export default function Navbar() {
         </Link>
         <Link to={"/laptop"} className="p-2 font-Montserrat">
           Laptops
+        </Link>
+        <Link to={"/footer"} className="p-2 font-Montserrat">
+          Contact
         </Link>
       </ul>
     </nav>

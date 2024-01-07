@@ -36,7 +36,7 @@ export default function Services() {
   console.log(serviceData);
 
   return (
-    <div className="py-28 min-h-screen bg-white text-black justify-center items-center p-15">
+    <div className="w-full py-28 min-h-screen bg-white text-black justify-center items-center p-15">
       <h1 className="multicolor-text font-Montserrat text-5xl md:text-5xl font-bold text-center">
         Our Services
       </h1>
@@ -60,9 +60,11 @@ export default function Services() {
         ))}
       </div>
       </div>
-      <a href="#" className="font-Poppins bg-blue-500 px-4 py-2 rounded text-white justify-end">
-          Contact Us
-      </a>
+      <div className="w-full flex justify-center">
+        <a href="#" className="font-Poppins bg-blue-500 px-6 py-4 rounded text-white">
+            Contact Us
+        </a>
+      </div>
     </div>
   );
 }
