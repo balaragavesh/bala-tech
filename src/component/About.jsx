@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function About() {
+export default function About({aboutref}) {
   return (
-    <div className="flex justify-center flex-col px-10 md:px-20 bg-gray-300 py-20">
+    <div ref={aboutref} className="flex justify-center flex-col px-10 md:px-20 bg-gray-300 py-20">
       <h1 className=" multicolor-text font-Montserrat text-5xl md:text-5xl font-bold  text-left py-3 px-20">
         About Bala Technologies
       </h1>

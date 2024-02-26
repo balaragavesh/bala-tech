@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Services() {
+export default function Services({servicesref}) {
   const serviceData = [
     {
       title: "Repair Services",
@@ -36,15 +36,15 @@ export default function Services() {
   console.log(serviceData);
 
   return (
-    <div className="w-full py-28 min-h-screen bg-white text-black justify-center items-center p-15">
+    <div ref={servicesref} className="w-full py-28 min-h-screen bg-white text-black justify-center items-center p-15">
       <h1 className="multicolor-text font-Montserrat text-5xl md:text-5xl font-bold text-center">
         Our Services
       </h1>
       <div>
-        <div className="grid  grid-cols-1 md:grid-cols-3 gap-7 md:mx-20 my-20 ">
+        <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5 md:mx-20 my-20 ">
         {serviceData.map((item, index) => (
           <div key={index} className="font-Montserrat  bg-zinc-200 p-5 rounded text-black-100 font-bold">
-            <img src={item.imgurl} alt="Image Description" className="w-full md:w-full h-1/2 justify-center" />
+            <img src={item.imgurl} alt="Image Description" className="w-full md:w-full  justify-center" />
             <h4 className="text-2xl py-3">{item.title}</h4>
             <p className="text-gray-40 font-medium">{item.description}</p>
 
