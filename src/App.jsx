@@ -39,11 +39,11 @@ function App() {
     <div className="App">
       <Element>
         <Navbar handleHome={handleHome} handleAbout={handleAbout} handleContact={handleContact} handleService={handleService} handleLaptop={handleLaptop} />
-        <Hero homeref={homeref} handleAbout id="home" />
+        <Hero homeref={homeref} laptopref={laptopref} handleAbout id="home" />
         <About aboutref={aboutref} id="about" />
         <Services servicesref={servicesref} id="services" />
         <Blog contactref={contactref} id="blog" />
-        <Laptop laptopref={laptopref} id="laptop" />
+        {/* <Laptop laptopref={laptopref} id="laptop" /> */}
         <Footer />
       </Element>
     </div>

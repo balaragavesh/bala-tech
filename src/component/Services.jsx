@@ -44,8 +44,8 @@ export default function Services({servicesref}) {
         <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5 md:mx-20 my-20 ">
         {serviceData.map((item, index) => (
           <div key={index} className="font-Montserrat  bg-zinc-200 p-5 rounded text-black-100 font-bold">
-            <img src={item.imgurl} alt="Image Description" className="w-full md:w-full  justify-center" />
-            <h4 className="text-2xl py-3">{item.title}</h4>
+            <img src={item.imgurl} alt="Image Description" className="w-full md:w-full h-48  justify-center" />
+            <h4 className=" text-2xl py-3">{item.title}</h4>
             <p className="text-gray-40 font-medium">{item.description}</p>
 
             {/*

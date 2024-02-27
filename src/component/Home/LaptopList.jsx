@@ -5,7 +5,7 @@ import { LaptopContext } from "../context/Context";
 import LaptopItem from "./LaptopItem";
 import desktopData from "../json/desktop.json";
 import Desktop from "./Desktop";
-export default function LaptopList() {
+export default function LaptopList({laptopref}) {
   const { isLaptop, modal, setModal, setProductDetail } =
     useContext(LaptopContext);
   const handleModal = (item) => {
@@ -13,7 +13,7 @@ export default function LaptopList() {
     setModal(true);
   };
   return (
-    <div className="bg-white relative grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4  p-20 gap-7">
+    <div ref={laptopref} className="bg-white relative grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4  p-20 gap-7">
       {isLaptop ? (
         <>
           <h1 className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-4 font-Poppins my-10 font-bold text-center text-5xl text-slate-700">

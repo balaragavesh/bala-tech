@@ -3,7 +3,7 @@ import img from "../../assets/img1.jpg";
 import LaptopList from "./LaptopList";
 import Category from "../Category";
 import Blog from "../Blog";
-export default function Hero({homeref}) {
+export default function Hero({homeref,laptopref}) {
   const img1 = "url('/src/assets/img1.jpg')";
   const [width, setWidth] = useState(window.innerWidth);
   window.addEventListener("resize", () => {
@@ -20,7 +20,7 @@ export default function Hero({homeref}) {
       </div>
       <div className="md:flex">
         <Category />
-        <LaptopList />
+        <LaptopList laptopref={laptopref}  />
       </div>
     </>
   );
