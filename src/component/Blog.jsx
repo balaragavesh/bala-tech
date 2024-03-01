@@ -12,15 +12,15 @@ export default function Blog({contactref}) {
   const src2 = "src/assets/customer-satis.jpg";
   const data = [
     {
-      h1: "10",
+      h1: "10+",
       span: "Years Of Experience",
     },
     {
-      h1: "5000",
+      h1: "5000+",
       span: "Happy clients",
     },
     {
-      h1: "5000",
+      h1: "4000+",
       span: "Computer Repaired",
     },
   ];
@@ -38,8 +38,8 @@ export default function Blog({contactref}) {
 
   return (
     <div ref={contactref}>
-      <div className="min-h-screen w-full flex justify-center items-center flex-col font-Poppins px-20 bg-gray-300 text-lg text-justify py-10">
-        <h1 className="font-Montserrat text-5xl py-10 multicolor-text font-bold">
+      <div className="min-h-screen w-full flex justify-center items-center flex-col font-Poppins px-5 md:px-40 bg-gray-300 text-lg text-justify py-10">
+        <h1 className="font-Montserrat text-5xl px-5 md:px-40 py-10 multicolor-text font-bold">
           Why choose us
         </h1>
         <div>
@@ -52,7 +52,7 @@ export default function Blog({contactref}) {
           />
         </div>
       </div>
-      <div className="w-full h-96 flex justify-center items-center bg-slate-900">
+      <div className="w-full h-60 flex justify-center items-center bg-slate-900 px-5 md:px-20" >
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-10">
           {data.map((item, index) => (
             <h1
