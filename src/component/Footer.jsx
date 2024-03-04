@@ -10,17 +10,17 @@ export default function Footer() {
             <a href="https://www.linkedin.com" className="mr-4" aria-label="LinkedIn">
               <i className="fab fa-linkedin fa-lg"></i>
               <span className="sr-only">LinkedIn</span>
-              <span className="hidden md:inline-block">LinkedIn</span>
+              <span >LinkedIn</span>
             </a>
             <a href="https://www.instagram.com" className="mr-4" aria-label="Instagram">
               <i className="fab fa-instagram fa-lg"></i>
               <span className="sr-only">Instagram</span>
-              <span className="hidden md:inline-block">Instagram</span>
+              <span>Instagram</span>
             </a>
             <a href="https://www.facebook.com" className="mr-4" aria-label="Facebook">
               <i className="fab fa-facebook fa-lg"></i>
               <span className="sr-only">Facebook</span>
-              <span className="hidden md:inline-block">Facebook</span>
+              <span >Facebook</span>
             </a>
           </div>
         </div>

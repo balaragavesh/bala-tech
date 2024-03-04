@@ -38,13 +38,13 @@ export default function Blog({contactref}) {
 
   return (
     <div ref={contactref}>
-      <div className="min-h-screen w-full flex justify-center items-center flex-col font-Poppins px-5 md:px-40 bg-gray-300 text-lg text-justify py-10">
+      <div className="min-h-screen w-full md:w-full flex justify-center items-center flex-col font-Poppins px-5 md:px-40 bg-gray-300 text-lg text-justify py-10">
         <h1 className="font-Montserrat text-5xl px-5 md:px-40 py-10 multicolor-text font-bold">
           Why choose us
         </h1>
         <div>
           <Section src={src1} content={content1} order={""} title={title1} />
-          <Section
+          <Section 
             src={src2}
             content={content2}
             order={"md:order-2"}
