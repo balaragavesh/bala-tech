@@ -22,7 +22,7 @@ export default function Category() {
           />
           ALL
         </label>
-        <label>
+        {/* <label>
           <input
             type="radio"
             id="radio2"
@@ -31,7 +31,7 @@ export default function Category() {
             onChange={handleRadio}
           />
           DELL
-        </label>
+        </label> */}
       </div>
     </div>
   );
